@@ -2,14 +2,14 @@ package com.saadeh.dscommerce.controllers;
 
 import com.saadeh.dscommerce.tests.TokenUtil;
 import io.restassured.http.ContentType;
-import org.apache.el.parser.Token;
-
 import org.json.simple.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
